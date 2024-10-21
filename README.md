@@ -5,7 +5,7 @@ This is a fullstack application in which we signin and signup option with jwt to
 
 ## Authors
 
-- [@Gau00trav](https://www.github.com/Gau007rav)
+- [@Gau00rav](https://www.github.com/Gau007rav)
 
 
 ## Documentation
