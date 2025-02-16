@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import TasksPage from "./components/TaskPage";
 import { useState } from "react";
+import AboutPage from "./components/About";
 
 function App() {
   let [authenticated, setAuthenticated] = useState(false);
@@ -17,6 +18,7 @@ function App() {
           element={<Login setAuthenticated={setAuthenticated} />}
         ></Route>
         <Route path="/tasks" element={<TasksPage />}></Route>
+        <Route path="/about" element={<AboutPage />}></Route>
       </Routes>
     </div>
   );
